@@ -1,0 +1,115 @@
+.meta {
+    font-family: Helvetica,Arial,open-sans;
+    font-size: .8571rem;
+    font-weight: 600;
+    /* color: #0093e0!important; */
+}
+
+.form-border {
+  border-style: solid;
+  border-color: #888
+}
+
+@media (max-width: 991px) {
+  .announcements h2 {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .announcements h2.events-heading {
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+}
+
+.announcements .slick-slider ul {
+  font-family: "Open Sans Condensed", Arial, Verdana, sans-serif;
+}
+
+.announcements .slick-slider ul li:last-child {
+  border-bottom: none;
+  margin-bottom:65px;
+}
+
+.announcements .slick-slider ul li h3:hover a {
+  color: #7d3793;
+  text-decoration: underline;
+}
+
+.announcements .slick-slider ul p {
+  font-size: 1.2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+}
+
+.announcements .slick-slider .all {
+  color: #0093e0!important;
+  font-family: "Helvetica Neue", Helvetica, Arial, open-sans;
+}
+
+.announcements .slick-slider .all:hover {
+  border-bottom: none;
+}
+
+.announcements .slick-slider .all .fa-caret-right {
+  padding-left: 6px;
+  position: relative;
+}
+
+.announcements .slick-slider .all .fa-caret-right:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  bottom: -4px;
+  right: 0;
+  background-color: #fff;
+}
+
+.announcements .left-right-arrows button:first-child {
+  margin-right: 3px;
+}
+
+@media (max-width: 991px) {
+  .announcements {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .announcements {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .announcements {
+    width: 100%;
+  }
+}
+
+.left-right-arrows {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+
+@media (max-width: 767px) {
+  .left-right-arrows {
+    border-top: -21px;
+  }
+}
+
+.left-right-arrows button {
+  height: 38px;
+  width: 38px;
+  border: 1px solid #464646;
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .left-right-arrows button {
+    height: 50px;
+    width: 50px;
+  }
+}
